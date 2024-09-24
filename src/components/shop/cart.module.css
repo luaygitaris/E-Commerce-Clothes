@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 15px 0;
+    width: 250px;
+}
+.img {
+    background-color: #F0EEED;
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img {
+    width: 90%;
+}
+.keterangan {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-left: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

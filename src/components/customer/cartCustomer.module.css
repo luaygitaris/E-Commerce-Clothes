@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    border: 1px solid #898888;
+    border-radius: 20px;
+    padding: 30px 35px;
+}
+.keterangan {
+    width: 300px;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 300px;
+        padding: 30px;
+    }
+    .keterangan {
+        width: 210px;
+    }
+}

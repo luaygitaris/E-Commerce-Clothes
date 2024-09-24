@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+    margin-top: 30px;
+}
+.buttoncontainer{
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+}
+.selectedbutton {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 10px;
+  }
+  .buttoncontainer {
+    padding: 0;
+  }
+  .selectedbutton {
+    padding: 5px 0px;
+    width: 100px;
+  }
+  .button {
+    padding: 5px 0;
+    width: 100px;
+  }
+}

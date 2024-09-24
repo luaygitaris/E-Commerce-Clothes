@@ -1,0 +1,22 @@
+.section {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.containerCategori {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.categori {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}

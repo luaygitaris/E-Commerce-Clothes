@@ -1,0 +1,34 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerReview {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.setting {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.setting div {
+    display: flex;
+}
+.latest {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 400px) {
+    .button {
+        padding: 10px;
+    }
+}

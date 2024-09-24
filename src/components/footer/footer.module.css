@@ -1,0 +1,120 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 30px;
+    margin-top: 150px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+.ambang {
+    display: flex;
+    padding: 30px 60px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+    position: absolute;
+    top: -70px;
+    left: 25%;
+    align-items: center;
+}
+.ambang h2 {
+    width: 300px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.email {
+    display: flex;
+    background-color: white;
+    border-radius: 14px;
+    padding: 5px 20px;
+    gap: 15px;
+}
+.icon {
+    color: black;
+}
+.email input {
+    border: none;
+}
+.ambang button {
+    background-color: white;
+    border: none;
+    width: max-content;
+}
+.container {
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 350px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 100%;
+    row-gap: 50px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: fit-content;
+}
+.list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+}
+
+@media (max-width: 900px) {
+    .ambang {
+        left: 30px;
+        width: 90%;
+    }
+    .ambang h2 {
+        width: auto;
+    }
+    .about {
+        width: auto;
+    }
+}
+@media (max-width: 600px) {
+    .ambang {
+        flex-direction: column;
+        top: -80px;
+    }
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 150px;
+    }
+    .about {
+        gap: 15px;
+    }
+    .list {
+        gap: 15px;
+    }
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .ambang {
+        left: 15px;
+        text-align: center;
+        gap: 10px;
+    }
+    .grid {
+        row-gap: 50px;
+    }
+}
