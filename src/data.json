@@ -1,6 +1,6 @@
 [
   {
-    "image": "src/assets/data/image1.png",
+    "image": "./src/assets/data/image1.png",
     "merk": "T-SHIRT WITH TAPE DETAILS",
     "harga": "$120",
     "bintang": "⭐⭐⭐⭐",
