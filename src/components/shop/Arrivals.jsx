@@ -1,6 +1,6 @@
 // import React from 'react'
 import data from "../../data.json";
-import Cart from "./cart";
+import Cart from "./Cart";
 import style from "./arrivals.module.css";
 import { Link } from "react-router-dom";
 // import { useState, useTransition } from "react";
