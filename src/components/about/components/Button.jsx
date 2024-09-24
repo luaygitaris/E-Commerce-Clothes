@@ -1,4 +1,3 @@
-import React from "react";
 import style from "../about.module.css";
 
 const Button = ({ buttons, isSelected, setIsSelected }) => {
@@ -8,7 +7,7 @@ const Button = ({ buttons, isSelected, setIsSelected }) => {
         {buttons.map((text, index) => {
           return (
             <button
-              key={text.index}
+              key={index}
               className={
                 isSelected == index ? style.selectedbutton : style.button
               }

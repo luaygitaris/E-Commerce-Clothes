@@ -5,8 +5,8 @@ const Card = ({ item }) => {
   return (
     <div>
       <div className={style.section}>
-        {item.map((val) => (
-          <Link to={"/product"} key={val.id} className={style.container}>
+        {item.map((val, index) => (
+          <Link to={"/product"} key={index} className={style.container}>
             <div className={style.img}>
               <img src={val.image} alt="" />
             </div>

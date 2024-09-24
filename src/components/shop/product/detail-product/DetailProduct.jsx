@@ -44,7 +44,7 @@ const DetailProduct = () => {
           {dataSize.slice(2, 6).map((item, id) => {
             return (
               <p
-                key={item.id}
+                key={id}
                 onClick={() => setIsOpen(id)}
                 className={isOpen == id ? style.large : style.p}
               >

@@ -8,15 +8,15 @@ const Customer = () => {
     <section className={style.section}>
       <h2>OUR HAPPY CUSTOMERS</h2>
       <div className={style.container}>
-        {dataCustomer.map((item) => {
+        {dataCustomer.map((item, index) => {
           return (
             <CartCustomer
-              key={item.id}
+              key={index}
               bintang={item.bintang}
               nama={item.nama}
               keterangan={item.keterangan}
             ></CartCustomer>
-          );
+          )
         })}
       </div>
     </section>

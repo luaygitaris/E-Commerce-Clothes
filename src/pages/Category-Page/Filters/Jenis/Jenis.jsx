@@ -10,9 +10,10 @@ const Jenis = ({ menuItems, filterItems, setItems }) => {
           <hr />
         </div>
         <div className={style.containerCategori}>
-          {menuItems.map((val) => (
+          {menuItems.map((val, index) => (
             <div
               href=""
+              key={index}
               className={style.categori}
               onClick={() => filterItems(val)}
             >

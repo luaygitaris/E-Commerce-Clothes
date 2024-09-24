@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../../../../data.json'
 import Cart from '../../Cart';
 import style from './might.module.css'
+import { Data } from '../../../../data';
 
 const Might = () => {
   return (
@@ -11,7 +12,7 @@ const Might = () => {
           <h1>You might also like</h1>
         </div>
         <div className={style.container}>
-          {data.slice(8, 12).map((item) => {
+          {Data.slice(8, 12).map((item) => {
             return (
               <Cart
                 key={item.id}

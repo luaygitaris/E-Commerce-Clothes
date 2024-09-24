@@ -10,8 +10,8 @@ const Style = ({ menuStyles, styleItems, setItems1 }) => {
           <hr />
         </div>
         <div className={style.containerStyle}>
-          {menuStyles.map((sty) => (
-            <div className={style.style} onClick={() => styleItems(sty)}>
+          {menuStyles.map((sty, index) => (
+            <div className={style.style} key={index} onClick={() => styleItems(sty)}>
               <p>{sty}</p>
               <KeyboardArrowRightIcon />
             </div>

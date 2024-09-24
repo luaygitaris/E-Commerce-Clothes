@@ -1,5 +1,5 @@
 // import React from 'react'
-import data from "../../data.json";
+import { Data } from "../../data";
 import Cart from "./Cart";
 import style from "./arrivals.module.css";
 import { Link } from "react-router-dom";
@@ -14,7 +14,7 @@ const Arrivals = () => {
           <h1>New Arrivals</h1>
         </div>
         <div className={style.container}>
-          {data.slice(0, 4).map((item) => {
+          {Data.slice(0, 4).map((item) => {
             return (
               <Cart
                 key={item.id}
@@ -40,7 +40,7 @@ const Arrivals = () => {
           <h1>Top Selling</h1>
         </div>
         <div className={style.container}>
-          {data.slice(4, 8).map((item) => {
+          {Data.slice(4, 8).map((item) => {
             return (
               <Cart
                 key={item.id}
