@@ -1,6 +1,6 @@
 import React from 'react'
 import data from '../../../../data.json'
-import Cart from '../../cart';
+import Cart from '../../Cart';
 import style from './might.module.css'
 
 const Might = () => {
