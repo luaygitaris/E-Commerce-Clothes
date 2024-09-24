@@ -1,5 +1,11 @@
 // import React from "react";
-import style from './header.module.css'
+import style from "./header.module.css";
+import headerImg from "../../../src/assets/header/header.png";
+import gucci from "../../../src/assets/header/gucci.png";
+import prada from "../../../src/assets/header/prada.png";
+import zara from "../../../src/assets/header/zara.png";
+import versace from "../../../src/assets/header/versace.png";
+import calvin from "../../../src/assets/header/calvin.png";
 
 const Header = () => {
   return (
@@ -30,14 +36,14 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <img src="../src/assets/header/header.png" alt="" />
+        <img src={headerImg} alt="" />
       </header>
       <marquee>
-        <img src="../../../src/assets/header/gucci.png" alt="" />
-        <img src="../../../src/assets/header/prada.png" alt="" />
-        <img src="../../../src/assets/header/zara.png" alt="" />
-        <img src="../../../src/assets/header/versace.png" alt="" />
-        <img src="../../../src/assets/header/calvin.png" alt="" />
+        <img src={gucci} alt="" />
+        <img src={prada} alt="" />
+        <img src={zara} alt="" />
+        <img src={versace} alt="" />
+        <img src={calvin} alt="" />
       </marquee>
     </>
   );

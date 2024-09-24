@@ -1,4 +1,4 @@
-import Data from "../../data.json";
+import data from "../../data.json";
 import style from "./categoryPage.module.css";
 import { useState } from "react";
 import Jenis from "./Filters/Jenis/Jenis";
@@ -6,6 +6,7 @@ import Card from "./Card/Card";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import Style from "./Filters/Style/Style";
 import TuneIcon from "@mui/icons-material/Tune";
+import { Data } from "../../data";
 
 const Categorypage = () => {
   const [item, setItems] = useState(Data);
