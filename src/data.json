@@ -1,105 +1,105 @@
 [
-    {
-      "image": "../src/assets/data/image1.png",
-      "merk": "T-SHIRT WITH TAPE DETAILS",
-      "harga": "$120",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "T-shirt",
-      "style": "Casual",
-      "style": "Gym"
-    },
-    {
-      "image": "../src/assets/data/image8.png",
-      "merk": "SKINNY FIT JEANS",
-      "harga": "$120",
-      "bintang": "⭐⭐⭐⭐⭐",
-      "kategori": "Jeans",
-      "style": "Casual"
-    },
-    {
-      "image": "../src/assets/data/image10.png",
-      "merk": "CHECKERED SHIRT",
-      "harga": "$120",
-      "bintang": "⭐⭐⭐⭐⭐",
-      "kategori": "T-shirt",
-      "style": "Casual",
-      "style": "Gym"
-    },
-    {
-      "image": "../src/assets/data/image9.png",
-      "merk": "SLEEVE STRIPED T-SHIRT",
-      "harga": "$120",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "Shirt",
-      "style": "Casual",
-      "style": "Formal"
-    },
-    {
-      "image": "../src/assets/data/Frame32.png",
-      "merk": "VERTICAL STRIPED SHIRT",
-      "harga": "$212",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "Hoodie",
-      "style": "Casual",
-      "style": "Party"
-    },
-    {
-      "image": "../src/assets/data/Frame33.png",
-      "merk": "COURAGE GRAPHIC T-SHIRT",
-      "harga": "$145",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "T-shirt",
-      "style": "Casual",
-      "style": "Gym"
-    },
-    {
-      "image": "../src/assets/data/Frame34.png",
-      "merk": "LOOSE FIT BERMUDA SHORTS",
-      "harga": "$80",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "Shorts",
-      "style": "Casual",
-      "style": "Party"
-    },
-    {
-      "image": "../src/assets/data/Frame35.png",
-      "merk": "FADED SKINNY JEANS",
-      "harga": "$210",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "Jeans",
-      "style": "Casual",
-      "style": "Formal"
-    },
-    {
-      "image": "../src/assets/data/Frame1.png",
-      "merk": "Polo with Contrast Trims",
-      "harga": "$210",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "T-shirt",
-      "style": "Casual"
-    },
-    {
-      "image": "../src/assets/data/Frame2.png",
-      "merk": "Gradient Graphic T-shirt",
-      "harga": "$180",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "T-shirt",
-      "style": "Casual"
-    },
-    {
-      "image": "../src/assets/data/Frame3.png",
-      "merk": "Polo with Tipping Details",
-      "harga": "$230",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "T-shirt",
-      "style": "Casual"
-    },
-    {
-      "image": "../src/assets/data/Frame4.png",
-      "merk": "Black Striped T-shirt",
-      "harga": "$250",
-      "bintang": "⭐⭐⭐⭐",
-      "kategori": "T-shirt",
-      "style": "Casual"
-    }
-  ]
+  {
+    "image": "./src/assets/data/image1.png",
+    "merk": "T-SHIRT WITH TAPE DETAILS",
+    "harga": "$120",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "T-shirt",
+    "style": "Casual",
+    "style": "Gym"
+  },
+  {
+    "image": "./src/assets/data/image8.png",
+    "merk": "SKINNY FIT JEANS",
+    "harga": "$120",
+    "bintang": "⭐⭐⭐⭐⭐",
+    "kategori": "Jeans",
+    "style": "Casual"
+  },
+  {
+    "image": "./src/assets/data/image10.png",
+    "merk": "CHECKERED SHIRT",
+    "harga": "$120",
+    "bintang": "⭐⭐⭐⭐⭐",
+    "kategori": "T-shirt",
+    "style": "Casual",
+    "style": "Gym"
+  },
+  {
+    "image": "../src/assets/data/image9.png",
+    "merk": "SLEEVE STRIPED T-SHIRT",
+    "harga": "$120",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "Shirt",
+    "style": "Casual",
+    "style": "Formal"
+  },
+  {
+    "image": "../src/assets/data/Frame32.png",
+    "merk": "VERTICAL STRIPED SHIRT",
+    "harga": "$212",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "Hoodie",
+    "style": "Casual",
+    "style": "Party"
+  },
+  {
+    "image": "../src/assets/data/Frame33.png",
+    "merk": "COURAGE GRAPHIC T-SHIRT",
+    "harga": "$145",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "T-shirt",
+    "style": "Casual",
+    "style": "Gym"
+  },
+  {
+    "image": "../src/assets/data/Frame34.png",
+    "merk": "LOOSE FIT BERMUDA SHORTS",
+    "harga": "$80",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "Shorts",
+    "style": "Casual",
+    "style": "Party"
+  },
+  {
+    "image": "../src/assets/data/Frame35.png",
+    "merk": "FADED SKINNY JEANS",
+    "harga": "$210",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "Jeans",
+    "style": "Casual",
+    "style": "Formal"
+  },
+  {
+    "image": "../src/assets/data/Frame1.png",
+    "merk": "Polo with Contrast Trims",
+    "harga": "$210",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "T-shirt",
+    "style": "Casual"
+  },
+  {
+    "image": "../src/assets/data/Frame2.png",
+    "merk": "Gradient Graphic T-shirt",
+    "harga": "$180",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "T-shirt",
+    "style": "Casual"
+  },
+  {
+    "image": "../src/assets/data/Frame3.png",
+    "merk": "Polo with Tipping Details",
+    "harga": "$230",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "T-shirt",
+    "style": "Casual"
+  },
+  {
+    "image": "../src/assets/data/Frame4.png",
+    "merk": "Black Striped T-shirt",
+    "harga": "$250",
+    "bintang": "⭐⭐⭐⭐",
+    "kategori": "T-shirt",
+    "style": "Casual"
+  }
+]
